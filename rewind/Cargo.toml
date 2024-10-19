@@ -1,0 +1,11 @@
+[package]
+name = "rewind"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { workspace = true }
+fuels = { workspace = true }
+fuel-tx = {version = "0.57.1"}
+anyhow = "1.0.90"
+hex = "0.4.3"

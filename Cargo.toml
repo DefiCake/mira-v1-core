@@ -5,7 +5,7 @@ edition = "2021"
 
 [workspace]
 resolver = "2"
-members = ["./contracts/mira_amm_contract", "./test-harness"]
+members = ["./contracts/mira_amm_contract", "./test-harness", "./rewind"]
 
 [workspace.dependencies]
 fuels = { version = "0.66.5", features = ["fuel-core-lib"] }

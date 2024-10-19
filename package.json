@@ -1,0 +1,18 @@
+{
+  "name": "mira-src",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mira-amm/mira-v1-core.git",
+  "author": "DefiCake <rarore92@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "typegen": "fuels typegen -i ./contracts/mira_amm_contract/out/**/release/*-abi.json -o ./typegen"
+  },
+  "dependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "dotenv": "^16.4.5",
+    "fs-extra": "^11.2.0",
+    "fuels": "^0.96.1",
+    "node-fetch": "^3.3.2"
+  }
+}
